@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Anvesh | Developer Portfolio</title>
+    <meta name="description"
+          content="The personal portfolio of Anvesh, a CSE student interested in web development.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="#home" class="logo">Anvesh<span>.</span></a>
+
+        <nav aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact" class="nav-button">Contact Me</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+                <p class="eyebrow">HELLO, WORLD! 👋</p>
+
+                <h1>Hi, I'm <span>Anvesh.</span></h1>
+
+                <h2>Aspiring Web Developer</h2>
+
+                <p class="hero-description">
+                    I'm a Computer Science student at IIIT Dharwad,
+                    passionate about building websites and learning
+                    new technologies.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="button primary">
+                        Explore My Work
+                    </a>
+
+                    <a href="#contact" class="button secondary">
+                        Let's Connect
+                    </a>
+                </div>
+            </div>
+
+            <div class="profile-container">
+                <img
+                    src="Linkedin Profile picture.png"
+                    alt="Anvesh's profile picture"
+                    class="profile-picture"
+                >
+
+                <div class="profile-label">
+                    <span class="status-dot"></span>
+                    Learning and Building
+                </div>
+            </div>
+
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+
+            <p class="eyebrow">GET TO KNOW ME</p>
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-card">
+                <p>
+                    Hello! I'm Anvesh, pursuing my Bachelor's degree
+                    at <strong>IIIT Dharwad</strong>.
+                </p>
+
+                <p>
+                    I'm interested in web development and enjoy
+                    learning how websites are designed and built.
+                    My goal is to improve my programming skills
+                    by creating practical projects.
+                </p>
+
+                <p>
+                    I'm from <strong>Sompeta, Andhra Pradesh, India</strong>.
+                    I'm always ready to learn, experiment, and grow
+                    as a developer.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills-section" id="skills">
+
+            <p class="eyebrow">WHAT I'M LEARNING</p>
+            <h2 class="section-title">My Skills</h2>
+
+            <p class="section-description">
+                Technologies and concepts I'm exploring on my
+                developer journey.
+            </p>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <span class="skill-number">01</span>
+                    <h3>HTML</h3>
+                    <p>Building the structure of web pages.</p>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-number">02</span>
+                    <h3>CSS</h3>
+                    <p>Creating layouts, styles, and responsive designs.</p>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-number">03</span>
+                    <h3>JavaScript</h3>
+                    <p>Learning to make websites interactive.</p>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-number">04</span>
+                    <h3>Python</h3>
+                    <p>Practising programming and problem-solving.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+
+            <p class="eyebrow">WHAT I'M WORKING ON</p>
+            <h2 class="section-title">My Projects</h2>
+
+            <p class="section-description">
+                A place to showcase the projects I build while learning.
+            </p>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-icon">&lt;/&gt;</div>
+                    <h3>Personal Portfolio</h3>
+                    <p>
+                        A personal website built using HTML and CSS
+                        to introduce myself and showcase my work.
+                    </p>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <a href="#home" class="project-link">
+                        You're viewing it &rarr;
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-icon">01</div>
+                    <h3>Project Two</h3>
+                    <p>
+                        Add a description of another project you have
+                        completed or are currently developing.
+                    </p>
+                    <div class="tags">
+                        <span>Your technology</span>
+                    </div>
+                    <a href="#contact" class="project-link">
+                        Ask me about it &rarr;
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-icon">02</div>
+                    <h3>Project Three</h3>
+                    <p>
+                        Showcase another project, what it does,
+                        and the skills you used to build it.
+                    </p>
+                    <div class="tags">
+                        <span>Your technology</span>
+                    </div>
+                    <a href="#contact" class="project-link">
+                        Get in touch &rarr;
+                    </a>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+
+            <p class="eyebrow">HAVE A QUESTION?</p>
+            <h2 class="section-title">Let's Connect</h2>
+
+            <p class="section-description">
+                Interested in collaborating or discussing technology?
+                I'd be happy to connect.
+            </p>
+
+            <form class="contact-form"
+                  action="mailto:YOUR_EMAIL@example.com"
+                  method="post"
+                  enctype="text/plain">
+
+                <label for="name">Your Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+                <label for="email">Email Address</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="name@example.com"
+                    required
+                >
+
+                <label for="message">Your Message</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    maxlength="500"
+                    placeholder="Write your message here..."
+                    required
+                ></textarea>
+
+                <button type="submit" class="button primary">
+                    Send Message
+                </button>
+
+                <p class="form-note">
+                    Note: This demo uses your email application.
+                    A backend or form service is needed for reliable
+                    website-based message delivery.
+                </p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#home" class="logo">Anvesh<span>.</span></a>
+
+        <p>Designed and built with HTML & CSS.</p>
+
+        <p>&copy; <span id="year">2026</span> Anvesh. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
